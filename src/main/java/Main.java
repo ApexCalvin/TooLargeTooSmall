@@ -24,7 +24,7 @@ public class Main {
             //max           multiples to increase the range to max value (Ex. range is 0-99.99)
             //+1            includes the "round up" number (Ex. range is 0-100.99)
             //(int)         "casts" the decimal as an int, and drops the decimal value
-        System.out.println("Random number: " +randNum);
+        //System.out.println("Random number: " +randNum);
 
         while (isCorrect == false) {
             System.out.print("Enter a number between " + min + "-" + max + ": ");
